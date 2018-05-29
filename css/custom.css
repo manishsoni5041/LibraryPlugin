@@ -1,0 +1,67 @@
+.checked {
+    color: orange;
+}
+
+.pagination {
+    clear:both;
+    padding:20px 0;
+    position:relative;
+    font-size:11px;
+    line-height:13px;
+	border:0 !important;
+}
+
+.pagination span, .pagination a {
+    display:block;
+    float:left;
+    margin: 2px 2px 2px 0;
+    padding:6px 9px 5px 9px;
+    text-decoration:none;
+    width:auto;
+    color:#fff;
+    background: #555;
+}
+
+.pagination a:hover {
+    color:#fff;
+    background: #3279BB;
+}
+
+#amount_start {
+    border: 0;
+    position: absolute;
+    top: 40px;
+    content: '';
+    background: none;
+    z-index: 999;
+    left: 0;
+}
+
+#amount_end {
+    border: 0;
+    position: absolute;
+    top: 40px;
+    content: '';
+    background: none;
+    z-index: 999;
+    left: 45%;
+}
+
+#slider {
+    width:50%;
+    margin-left:15px;
+}
+
+#search_books {
+    display: block;
+    margin: 20px auto 0;
+}
+
+.filters {border:1px solid #000; padding:10px;margin-bottom:50px;}
+
+#books_list {
+	display:none; 
+	padding:10px;  
+	margin-bottom:50px;
+	border:1px solid #000;
+}
